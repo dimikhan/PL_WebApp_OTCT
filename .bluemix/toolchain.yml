@@ -3,7 +3,7 @@
 #locales: 
 #  $ref: locales.yml
 name: "WebService project toolchain"
-description: "With this toolchain, you can bookmark existing tools in your WebService. \n\nTo get started, click **Create**."
+description: "This is an OTC template for WebService project profile. \n\nTo get started, click **Create**."
 version: 0.1
 # Generate base64 representation of image at http://www.askapache.com/online-tools/base64-image-converter/
 image: data:image/png;base64,$file(jazzhub-toolchain.png,base64)
@@ -20,7 +20,7 @@ jira:
   parameters:
     type: Jira
     lifecyclePhase: "THINK"
-    imageUrl: http://product.twoodo.com/wp-content/uploads/2015/04/jira-icon.png
+    imageUrl: https://a.slack-edge.com/ae7f/plugins/jira/assets/service_512.png
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
@@ -80,7 +80,7 @@ sonarqube:
   parameters:
     type: Sonarqube
     lifecyclePhase: "DELIVER"
-    imageUrl: https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjBvuOct_vOAhUCTY8KHRxGAjQQjRwIBw&url=http%3A%2F%2Fdocs.sonarqube.org%2Fdisplay%2FSONAR%2FDocumentation&bvm=bv.131783435,d.c2I&psig=AFQjCNE6rDBmErYOZwxQfqwiUZ9wvMAqIw&ust=1473274902035221
+    imageUrl: http://docs.sonarqube.org/download/attachments/6962408/SONAR?version=1&modificationDate=1470314097000&api=v2
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
