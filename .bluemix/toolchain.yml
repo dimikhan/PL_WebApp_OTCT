@@ -51,6 +51,10 @@ webide:
     description:
     additional-properties:
     
+#Web IDE
+webide:
+  service_id: orion
+    
 jenkins:
   service_id: customtool
   parameters:
