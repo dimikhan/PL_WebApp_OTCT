@@ -38,18 +38,6 @@ gitlab:
     dashboard_url:
     description:
     additional-properties:
-
-webide:
-  service_id: customtool
-  parameters:
-    type: Eclipse WebIDE
-    lifecyclePhase: "CODE"
-    imageUrl: http://www.eclipse.org/ecd/img/eclipse256.png
-    documentationUrl:
-    name: "{{name}}"
-    dashboard_url:
-    description:
-    additional-properties:
     
 #Web IDE
 webide:
