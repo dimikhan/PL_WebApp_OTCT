@@ -98,7 +98,7 @@ sonarqube:
 new_relic:
   service_id: customtool
   parameters:
-    type: New Relic
+    type: NewRelic
     lifecyclePhase: "MANAGE"
     imageUrl: https://pbs.twimg.com/profile_images/747460669532864512/0eAvc33u.jpg
     documentationUrl:
@@ -110,7 +110,7 @@ new_relic:
 bluemix:
   service_id: customtool
   parameters:
-    type: IBM Bluemix
+    type: Bluemix
     lifecyclePhase: "RUN"
     imageUrl: https://developer.ibm.com/bluemix/wp-content/uploads/sites/20/2015/04/bluemix-logo.png
     documentationUrl:
