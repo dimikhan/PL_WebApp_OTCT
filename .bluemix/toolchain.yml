@@ -50,7 +50,12 @@ messaging:
 #Sauce Labs
 test:
   service_id: saucelabs
-  include: saucelabs.yml  
+  include: saucelabs.yml
+  
+#Deployment Risk Analytics
+dra:
+  service_id: draservicebroker
+  include: dra.yml
     
 jenkins:
   service_id: customtool
