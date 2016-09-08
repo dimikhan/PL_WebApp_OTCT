@@ -79,26 +79,3 @@ sonarqube:
     description:
     additional-properties:
     
-new_relic:
-  service_id: customtool
-  parameters:
-    type: New Relic
-    lifecyclePhase: "MANAGE"
-    imageUrl: https://pbs.twimg.com/profile_images/747460669532864512/0eAvc33u.jpg
-    documentationUrl:
-    name: "{{name}}"
-    dashboard_url:
-    description:
-    additional-properties:
-
-bluemix:
-  service_id: customtool
-  parameters:
-    type: IBM Bluemix
-    lifecyclePhase: "RUN"
-    imageUrl: https://developer.ibm.com/bluemix/wp-content/uploads/sites/20/2015/04/bluemix-logo.png
-    documentationUrl:
-    name: "{{name}}"
-    dashboard_url:
-    description:
-    additional-properties:
