@@ -13,6 +13,8 @@ required:
  - jenkins
  - artifactory
  - sonarqube
+ - bluemix
+ - new_relic
 
 jira:
   service_id: customtool
@@ -51,6 +53,11 @@ messaging:
 test:
   service_id: saucelabs
   include: saucelabs.yml
+  
+#Deployment Risk Analytics
+dra:
+  service_id: draservicebroker
+  include: dra.yml
     
 jenkins:
   service_id: customtool
@@ -82,6 +89,30 @@ sonarqube:
     type: Sonarqube
     lifecyclePhase: "DELIVER"
     imageUrl: http://docs.sonarqube.org/download/attachments/6962408/SONAR?version=1&modificationDate=1470314097000&api=v2
+    documentationUrl:
+    name: "{{name}}"
+    dashboard_url:
+    description:
+    additional-properties:
+    
+new_relic:
+  service_id: customtool
+  parameters:
+    type: New Relic
+    lifecyclePhase: "MANAGE"
+    imageUrl: https://pbs.twimg.com/profile_images/747460669532864512/0eAvc33u.jpg
+    documentationUrl:
+    name: "{{name}}"
+    dashboard_url:
+    description:
+    additional-properties:
+
+bluemix:
+  service_id: customtool
+  parameters:
+    type: IBM Bluemix
+    lifecyclePhase: "RUN"
+    imageUrl: https://developer.ibm.com/bluemix/wp-content/uploads/sites/20/2015/04/bluemix-logo.png
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
