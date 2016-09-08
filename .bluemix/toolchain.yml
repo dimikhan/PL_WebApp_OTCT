@@ -13,8 +13,6 @@ required:
  - jenkins
  - artifactory
  - sonarqube
- - bluemix
- - new_relic
 
 jira:
   service_id: customtool
