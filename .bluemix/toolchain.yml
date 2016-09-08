@@ -15,6 +15,8 @@ required:
  - sonarqube
  - new_relic
  - bluemix
+ - jmeter
+ - urbancodedeploy
 
 jira:
   service_id: customtool
@@ -113,6 +115,30 @@ bluemix:
     type: Bluemix
     lifecyclePhase: "RUN"
     imageUrl: https://developer.ibm.com/bluemix/wp-content/uploads/sites/20/2015/04/bluemix-logo.png
+    documentationUrl:
+    name: "{{name}}"
+    dashboard_url:
+    description:
+    additional-properties:
+
+jmeter:
+  service_id: customtool
+  parameters:
+    type: Bluemix
+    lifecyclePhase: "CODE"
+    imageUrl: http://cdn.freeperformancesoftware.com/wp-content/uploads/2013/10/jmeter-logo.jpg
+    documentationUrl:
+    name: "{{name}}"
+    dashboard_url:
+    description:
+    additional-properties:
+    
+urbancodedeploy:
+  service_id: customtool
+  parameters:
+    type: Bluemix
+    lifecyclePhase: "DELIVER"
+    imageUrl: http://www.testplant.com/wp-content/uploads/2016/02/TP-Eco-logos-UrbanCode1.png
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
