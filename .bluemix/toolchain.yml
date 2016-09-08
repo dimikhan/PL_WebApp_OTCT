@@ -41,7 +41,16 @@ gitlab:
 #Web IDE
 webide:
   service_id: orion
+
+#Slack
+messaging:
+  service_id: slack
+  include: slack.yml
   
+#Sauce Labs
+test:
+  service_id: saucelabs
+  include: saucelabs.yml  
     
 jenkins:
   service_id: customtool
