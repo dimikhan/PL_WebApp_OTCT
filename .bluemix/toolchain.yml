@@ -124,7 +124,7 @@ bluemix:
 jmeter:
   service_id: customtool
   parameters:
-    type: Bluemix
+    type: JMeter
     lifecyclePhase: "CODE"
     imageUrl: http://cdn.freeperformancesoftware.com/wp-content/uploads/2013/10/jmeter-logo.jpg
     documentationUrl:
