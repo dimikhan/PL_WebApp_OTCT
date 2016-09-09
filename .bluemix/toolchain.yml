@@ -6,7 +6,7 @@ name: "WebService project toolchain"
 description: "This is an OTC template for WebService project profile. \n\nTo get started, click **Create**."
 version: 0.1
 # Generate base64 representation of image at http://www.askapache.com/online-tools/base64-image-converter/
-image: data:image/png;base64,$file(jazzhub-toolchain.png,base64)
+image: data:image/png;base64,$file(PL_WebApp_OTCT-toolchain.png,base64)
 required: 
  - jira
  - gitlab
