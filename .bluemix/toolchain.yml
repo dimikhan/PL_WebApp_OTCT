@@ -90,7 +90,7 @@ sonarqube:
   parameters:
     type: Sonarqube
     lifecyclePhase: "DELIVER"
-    imageUrl: http://docs.sonarqube.org/download/attachments/6962408/SONAR?version=1&modificationDate=1470314097000&api=v2
+    imageUrl: http://cdn.devslice.net/blog/wp-content/uploads/2016/08/SonarQube-logo.png
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
@@ -102,7 +102,7 @@ new_relic:
   parameters:
     type: NewRelic
     lifecyclePhase: "MANAGE"
-    imageUrl: https://pbs.twimg.com/profile_images/747460669532864512/0eAvc33u.jpg
+    imageUrl: https://pbs.twimg.com/profile_images/777980658421424128/P-Tcwmlq.jpg
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
