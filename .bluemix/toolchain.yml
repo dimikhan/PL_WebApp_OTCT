@@ -47,9 +47,9 @@ webide:
   service_id: orion
 
 #Slack
-#messaging:
-  #service_id: slack
-  #include: slack.yml
+messaging:
+  service_id: slack
+  include: slack.yml
   
 #Sauce Labs
 #test:
@@ -57,9 +57,9 @@ webide:
   #include: saucelabs.yml
   
 #Deployment Risk Analytics
-dra:
-  service_id: draservicebroker
-  include: dra.yml
+#dra:
+  #service_id: draservicebroker
+  #include: dra.yml
     
 jenkins:
   service_id: customtool
