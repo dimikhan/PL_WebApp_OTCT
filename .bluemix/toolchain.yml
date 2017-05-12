@@ -18,6 +18,7 @@ required:
  - jmeter
  - urbancodedeploy
 
+services:
 jira:
   service_id: customtool
   parameters:
