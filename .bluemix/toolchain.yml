@@ -18,15 +18,6 @@ required:
  - jmeter
  - urbancodedeploy
 
-services:
-
-sample-repo:
-    service_id: hostedgit
-    parameters:
-      repo_name: '{{toolchain.name}}'
-      repo_url: 'https://git.ng.bluemix.net/{{toolchain.name}}/{{toolchain.name}}'
-      type: link
-      enable_traceability: true
 
 jira:
   service_id: customtool
